@@ -1,8 +1,14 @@
-# 🌐 Jackson's GitHub Pages Website
+# Jackson's Portfolio Website
 
-This is my **personal portfolio site**, built with **HTML, CSS, and JavaScript** and hosted on **GitHub Pages**.
+This is my **personal website**, hosted on GitHub Pages.
 
-### 🚀 Live Website
-👉 [https://jackson.github.io](https://jackson.github.io)
+- **Live site:** [https://jackson.github.io](https://jackson.github.io)
+- **Tech stack:** HTML, CSS, JavaScript, Python
 
-### 🧱 Structure
+### Run locally with Python
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run server
+python server.py
