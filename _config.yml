@@ -1,43 +1,17 @@
 # --- Basic Site Info ---
 title: Jackson's Portfolio
-description: Welcome to my personal GitHub Pages site!
+description: My personal GitHub Pages website built with HTML, CSS, and JS.
 url: "https://jackson.github.io"
 author: Jackson
 
-# --- Theme Settings ---
-theme: minima   # default Jekyll theme; simple & fast
-show_excerpts: true
-paginate: 5
-paginate_path: "/page:num/"
-
-# --- Social Links (edit or remove any) ---
-social_links:
-  github: jackson
-  twitter: jackson_dev
-  linkedin: jackson-dev
-  email: yourname@example.com
-
-# --- Build Settings ---
+# --- Theme Settings (required for Jekyll to build) ---
+theme: minima
 markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
-  - jekyll-paginate
 
-# --- Navigation Bar (custom links) ---
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "About"
-    url: "/about/"
-  - title: "Contact"
-    url: "/contact/"
-
-# --- Google Analytics (optional) ---
-# google_analytics: G-XXXXXXXXXX
-
-# --- SEO Options ---
+# --- Optional ---
+show_excerpts: true
+paginate: 5
 timezone: UTC
-permalink: /:title/
